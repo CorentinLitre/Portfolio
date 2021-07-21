@@ -2,31 +2,60 @@ body {
     margin: auto;
     width: 55%;
     text-align: justify;
-    font-family: sans-serif;   
+    font-family: sans-serif; 
+    animation-name: color-change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
 }
 nav {
-    background-color:dimgray
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 8px;
   }
   
 .button {
-    background-color:dimgray;
+    background-color: white;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 10px;
 } 
   
 .button:hover {
     background-color: darkgrey;
 }
 
-h1,h2 {
-    text-shadow: 1px 1px 1px gray;
+p {
+    color: black;
+    text-align: justify;
+  }
+  
+  h1,
+  h2{
+    color: darkblue;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 1px 1px 1px gray; 
+  }
+  
+  h2 {
+    color: dodgerblue;
+  }
+
+div {
+    background-color: white;
+    border: solid white 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-h1 {
-    color: darkblue;
-}
+@keyframes color-change {
+    from {background-color: darkblue;}
+    to {background-color: dodgerblue;}
+  }
