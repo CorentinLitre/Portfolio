@@ -1,0 +1,32 @@
+body {
+    margin: auto;
+    width: 55%;
+    text-align: justify;
+    font-family: sans-serif;   
+}
+nav {
+    background-color:dimgray
+  }
+  
+.button {
+    background-color:dimgray;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
+  
+.button:hover {
+    background-color: darkgrey;
+}
+
+h1,h2 {
+    text-shadow: 1px 1px 1px gray;
+}
+
+h1 {
+    color: darkblue;
+}
